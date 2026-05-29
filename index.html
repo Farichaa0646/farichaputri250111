@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faricha</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">Chaa<span class="brand-dot">.</span></div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#project" class="nav-link">Project</a></li>
+                <li><a href="#experiance" class="nav-link">Experiance</a></li>
+                <li><a href="#service" class="nav-link">Hobby</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section home">
+            <div class="container">
+                <div class="home-content">
+                    <div class="home-text">
+                        <div class="greeting">👋 Hello...</div>
+                        <h1 class="hero-title">I'm <span class="accent">Faricha</span></h1>
+                        <!-- <h2 class="hero-subtitle" id="rotating-profession">Mahasiswa</h2> -->
+                        <p class="hero-desc">Saya Faricha, mahasiswa S1 Bimbingan dan Konseling di Universitas Negri Malang angkatan 2025</p>
+                        
+
+                        <div class="hero-actions">
+                            <button class="hire-btn primary">
+                                <span>Hire Me</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://wa.me/628990194849" aria-label="WhatsApp" class="social-icon whatsapp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="https://www.instagram.com/chalica_ars?igsh=Z2lrYzl0MzNqaDg1" aria-label="Instagram" class="social-icon instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://tiktok.com/@gabriel_arn78" aria-label="tiktok" class="social-icon tiktok">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="home-image">
+                        <div class="image-container">
+                            <img src="images/qwe (1).jpg" alt="Profile photo of Asep" class="profile-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        <div class="image-wrapper">
+                            <img src="images/c.jpeg" alt="About Asep" class="about-img">
+                        </div>
+                    </div>
+                    
+                    <div class="about-text">
+                        <h2 class="section-title">About Me</h2>
+                        <div class="about-description">
+                            <p>Hai! Salam kenal dari aku, mahasiswa UM yang lagi mencoba menyelaraskan ritme hidup lewat kata dan gerak.
+                            <p> Aku adalah mahasiswa jurusan Bimbingan dan Konseling di Universitas Negeri Malang. Di kampus, selain sibuk mendalami ilmu Bimbingan dan Konseling, aku juga aktif mengasah kemampuan leadership dan kerja tim lewat Himpunan Mahasiswa Departemen BK. Biar makin produktif, aku juga mengisi waktu luang dengan mengambil proyek freelance. Selain dunia konseling, aku punya passion di bidang seni, khususnya dance. Buatku, menari bukan cuma sekadar hobi, tapi juga cara berekspresi. Aku suka menyalurkan kreativitas ini dengan memproduksi konten-konten dance di TikTok dan YouTube. Melalui weblog ini yang juga merupakan bagian dari projek mata kuliah Multimedia BK, aku ingin membagikan secuil kisah perjalanan kuliahku pada mata kuliah ini. Stay tuned and let's connect!</p>                     
+                        </div>
+
+                        <div class="about-highlights">
+                            <div class="highlight" onclick="openPopup('nameCardPopup')">
+                                    <i class="far fa-id-card"></i>
+                                    <div>
+                                        <h4>Name Card</h4>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="popup-overlay" id="nameCardPopup">
+
+    <div class="popup-content namecard-popup">
+
+        <!-- CLOSE -->
+        <span class="close-btn"
+              onclick="closePopup('nameCardPopup')">
+              &times;
+        </span>
+        <div class="namecard-image">
+            <img src="images/Card1.jpg" alt="Card1-img">
+            <img src="images/Card2.jpg" alt="Card2-img">
+        </div>
+
+        <!-- DOWNLOAD -->
+ <!-- <a href="/Project_Mulmed_UAS/web_blog/protfile/card_name.pdf" download>
+    DOWNLOAD PDF
+</a> -->
+
+    </div>
+
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- =========================================
+                PROJECT SECTION
+========================================= -->
+<section id="project" class="section project">
+
+    <div class="container">
+
+        <!-- TITLE -->
+        <h2 class="section-title">
+            Group Projects
+        </h2>
+
+        <!-- PROJECT GRID -->
+        <div class="project-grid">
+
+            <!-- BOOK -->
+            <div class="project-card" onclick="openPopup('bookPopup')">
+
+                <div class="project-info">
+                    <h3>📖 Buku Panduan</h3>
+
+                    <p>
+                        Media pembelajaran interaktif berbasis flipbook digital.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- POSTER -->
+            <div class="project-card" onclick="openPopup('posterPopup')">
+
+                <div class="project-info">
+                    <h3>🖼️ Poster</h3>
+
+                    <p>
+                        Poster visual edukatif dengan desain modern dan informatif.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- LUMI GAME -->
+            <div class="project-card" onclick="openPopup('lumiPopup')">
+
+                <div class="project-info">
+                    <h3>🎮 Lumi Game</h3>
+
+                    <p>
+                        Media permainan interaktif berbasis memory card by Lumi.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- VIDEO -->
+            <div class="project-card" onclick="openPopup('videoPopup')">
+
+                <div class="project-info">
+                    <h3>🎥 Video</h3>
+
+                    <p>
+                        Video edukatif multimedia.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+                POPUP BOOK
+========================================= -->
+<div class="popup-overlay" id="bookPopup">
+
+    <div class="popup-content">
+
+        <span class="close-btn"
+              onclick="closePopup('bookPopup')">
+              &times;
+        </span>
+
+        <iframe
+            src="https://heyzine.com/flip-book/1ad0c4da5f.html"
+            class="popup-frame"
+            scrolling="yes">
+        </iframe>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================
+                POPUP POSTER
+========================================= -->
+<div class="popup-overlay" id="posterPopup">
+
+    <div class="popup-content poster-content">
+
+        <span class="close-btn"
+              onclick="closePopup('posterPopup')">
+              &times;
+        </span>
+
+        <img src="images/poster.jpg"
+             class="poster-img">
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================
+                POPUP LUMI
+========================================= -->
+<div class="popup-overlay" id="lumiPopup">
+
+    <div class="popup-content lumi-content">
+
+        <span class="close-btn"
+              onclick="closePopup('lumiPopup')">
+              &times;
+        </span>
+
+        <iframe
+            src="https://app.lumi.education/run/vYzbSK"
+            class="popup-frame"
+            scrolling="yes">
+        </iframe>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================
+                POPUP VIDEO
+========================================= -->
+<div class="popup-overlay" id="videoPopup">
+
+    <div class="popup-content video-content">
+
+        <span class="close-btn"
+              onclick="closePopup('videoPopup')">
+              &times;
+        </span>
+
+        <!-- VIDEO OVERLAY -->
+        <div class="video-wrapper">
+
+            <iframe
+                src="https://www.instagram.com/reel/DYcan6czjiZ/embed"
+                class="video-frame"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================
+                    CSS
+========================================= -->
+<style>
+
+/* =========================================
+                PROJECT GRID
+========================================= */
+
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    margin-top:40px;
+}
+
+/* CARD */
+.project-card{
+    position:relative;
+
+    height:220px;
+    width: 450px;;
+
+    border-radius:25px;
+
+    overflow:hidden;
+    cursor:pointer;
+
+    transition:.4s ease;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+
+    background:rgba(255,255,255,0.05);
+}
+
+/* HOVER */
+.project-card:hover{
+    transform:translateY(-8px);
+}
+
+/* DARK OVERLAY */
+.project-card::after{
+    content:'';
+
+    position:absolute;
+    inset:0;
+
+    background:linear-gradient(
+        to top,
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.1)
+    );
+}
+
+/* TEXT */
+.project-info{
+    position:absolute;
+
+    left:25px;
+    bottom:25px;
+
+    color:white;
+
+    z-index:2;
+}
+
+.project-info h3{
+    font-size:22px;
+    margin-bottom:8px;
+}
+
+.project-info p{
+    font-size:14px;
+    line-height:1.4;
+    color:rgba(255,255,255,0.85);
+}
+
+
+
+/* =========================================
+                POPUP OVERLAY
+========================================= */
+
+.popup-overlay{
+    position:fixed;
+    inset:0;
+
+    background:rgba(0,0,0,0.5);
+    backdrop-filter:blur(6px);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    opacity:0;
+    visibility:hidden;
+
+    transition:.3s ease;
+
+    z-index:9999;
+}
+
+/* ACTIVE */
+.popup-overlay.active{
+    opacity:1;
+    visibility:visible;
+}
+
+
+
+/* =========================================
+                POPUP CONTENT
+========================================= */
+
+.popup-content{
+    position:relative;
+
+    width:80%;
+    max-width:900px;
+    height:85vh;
+
+    background:#fff;
+
+    border-radius:25px;
+
+    overflow-y:auto;
+    overflow-x:hidden;
+
+    padding:20px;
+
+    animation:popupShow .3s ease;
+}
+
+/* POSTER */
+.poster-content{
+    max-width:700px;
+    text-align:center;
+}
+
+/* VIDEO */
+.video-content{
+    max-width:500px;
+    height:auto;
+}
+
+/* IFRAME */
+.popup-frame{
+    width:100%;
+    height:600px;
+
+    border:none;
+    border-radius:15px;
+
+    margin-top:20px;
+}
+
+/* POSTER IMAGE */
+.poster-img{
+    width:100%;
+    border-radius:20px;
+    margin-top:20px;
+}
+
+
+
+/* =========================================
+                VIDEO OVERLAY
+========================================= */
+
+.video-wrapper{
+    width:100%;
+    margin-top:20px;
+
+    border-radius:20px;
+    overflow:hidden;
+
+    position:relative;
+}
+
+/* VIDEO */
+.video-frame{
+    width:100%;
+    height:700px;
+
+    border:none;
+    border-radius:20px;
+}
+
+
+
+/* =========================================
+                CLOSE BUTTON
+========================================= */
+
+.close-btn{
+    position:absolute;
+
+    top:15px;
+    right:20px;
+
+    font-size:35px;
+    cursor:pointer;
+
+    color:#555;
+
+    transition:.3s;
+}
+
+.close-btn:hover{
+    color:red;
+    transform:rotate(90deg);
+}
+
+
+
+/* =========================================
+                ANIMATION
+========================================= */
+
+@keyframes popupShow{
+
+    from{
+        transform:scale(.8);
+        opacity:0;
+    }
+
+    to{
+        transform:scale(1);
+        opacity:1;
+    }
+}
+
+
+
+/* =========================================
+                RESPONSIVE
+========================================= */
+
+@media(max-width:768px){
+
+    .project-grid{
+        grid-template-columns:1fr;
+    }
+
+    .project-card{
+        height:180px;
+    }
+
+    .project-info h3{
+        font-size:22px;
+    }
+
+    .popup-content{
+        width:92%;
+        height:auto;
+        max-height:90vh;
+    }
+
+    .popup-frame{
+        height:400px;
+    }
+
+    .video-frame{
+        height:500px;
+    }
+
+}
+
+</style>
+
+
+
+<!-- =========================================
+                JAVASCRIPT
+========================================= -->
+<script>
+
+function openPopup(id){
+
+    document
+        .getElementById(id)
+        .classList.add("active");
+}
+
+function closePopup(id){
+
+    document
+        .getElementById(id)
+        .classList.remove("active");
+}
+
+/* CLOSE WHEN CLICK OUTSIDE */
+window.onclick = function(e){
+
+    document
+        .querySelectorAll(".popup-overlay")
+        .forEach(popup => {
+
+            if(e.target === popup){
+
+                popup.classList.remove("active");
+
+            }
+
+        });
+
+}
+
+</script>
+
+                        
+
+<!-- Mini Games Section -->
+<!-- =========================================
+                EXPERIENCE SECTION
+========================================= -->
+<section id="experiance" class="section experiance">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Experiance
+        </h2>
+
+        <div class="projects-content">
+
+            <div class="projects-grid">
+
+                <!-- CARD 1 -->
+                <div class="project-card"
+                     onclick="openPopup('expPopup1')">
+
+                    <div class="project-image">
+
+                        <img src="images/e.jpeg"
+                             alt="Experience 1">
+
+                        <div class="project-overlay">
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 2 -->
+                <div class="project-card"
+                     onclick="openPopup('expPopup2')">
+
+                    <div class="project-image">
+
+                        <img src="images/o.jpeg"
+                             alt="Experience 2">
+
+                        <div class="project-overlay">
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 3 -->
+                <div class="project-card"
+                     onclick="openPopup('expPopup3')">
+
+                    <div class="project-image">
+
+                        <img src="images/d.jpeg"
+                             alt="Experience 3">
+
+                        <div class="project-overlay">
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 4 -->
+                <div class="project-card"
+                     onclick="openPopup('expPopup4')">
+
+                    <div class="project-image">
+
+                        <img src="images/1e.png"
+                             alt="Experience 4">
+
+                        <div class="project-overlay">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+                POPUP 1
+========================================= -->
+<div class="popup-overlay" id="expPopup1">
+
+    <div class="exp-popup-content">
+
+        <!-- CLOSE -->
+        <span class="close-btn"
+              onclick="closePopup('expPopup1')">
+              &times;
+        </span>
+
+        <!-- LEFT IMAGE -->
+        <div class="exp-popup-image">
+
+            <img src="images/e.jpeg"
+                 alt="Experience 1">
+
+        </div>
+
+        <!-- RIGHT DESCRIPTION -->
+        <div class="exp-popup-text">
+
+            <h3>Pelayanan dan Pengelolaan Usaha Skala Kecil</h3>
+
+            <p>
+                Pada masa liburan kelulusan sekolah di tahun 2019, saya memilih untuk produktif ditengah guncangan virus corona dengan terjun langsung ke dunia kerja dan bisnis. Saya mengasah mental pelayanan (hospitality) dengan bekerja di Mie Ayam dan Bakso Solo Melati, di mana saya belajar cara berkomunikasi yang baik dengan pelanggan.
+
+Pada pertengahan tahun 2022, saya juga menantang diri dalam hal manajemen bisnis (entrepreneurship) dengan mengelola usaha mikro, yaitu Pentol Brantas, Top Choco, dan Rental Costume. Pengalaman mengurus operasional, keuangan, hingga pemasaran ini berhasil membentuk pola pikir saya menjadi lebih mandiri, terorganisir, dan peka terhadap peluang bisnis.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================
+                POPUP 2
+========================================= -->
+<div class="popup-overlay" id="expPopup2">
+
+    <div class="exp-popup-content">
+
+        <span class="close-btn"
+              onclick="closePopup('expPopup2')">
+              &times;
+        </span>
+
+        <div class="exp-popup-image">
+
+            <img src="images/o.jpeg"
+                 alt="Experience 2">
+
+        </div>
+
+        <div class="exp-popup-text">
+
+            <h3>Organization</h3>
+
+            <p>
+                Selama berorganisasi di Himpunan Mahasiswa Departemen (HMD) BK, saya aktif sebagai anggota Divisi Kewirausahaan. Dalam divisi ini, saya bertanggung jawab dalam mengelola program kerja kreatif. Pengalaman ini berhasil mengasah kemampuan kerja sama tim serta memperkuat mentalitas kewirausahaan di lingkungan kampus.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================
+                POPUP 3
+========================================= -->
+<div class="popup-overlay" id="expPopup3">
+
+    <div class="exp-popup-content">
+
+        <span class="close-btn"
+              onclick="closePopup('expPopup3')">
+              &times;
+        </span>
+
+        <div class="exp-popup-image">
+
+            <img src="images/d.jpeg"
+                 alt="Experience 3">
+
+        </div>
+
+        <div class="exp-popup-text">
+
+            <h3>Guest Lecture Commitee</h3>
+
+            <p>
+                Di luar organisasi tetap, saya juga berkontribusi sebagai panitia Kuliah Tamu di Divisi PDD untuk pemenuhan tugas mata kuliah. Dalam peran ini, saya bertanggung jawab penuh atas visualisasi acara, mulai dari mendesain media publikasi digital, hingga operator untuk menunjang jalannya acara.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================
+                POPUP 4
+========================================= -->
+<div class="popup-overlay" id="expPopup4">
+
+    <div class="exp-popup-content">
+
+        <span class="close-btn"
+              onclick="closePopup('expPopup4')">
+              &times;
+        </span>
+
+        <div class="exp-popup-image">
+
+            <img src="images/1e.png"
+                 alt="Experience 4">
+
+        </div>
+
+        <div class="exp-popup-text">
+
+            <h3>Internship and Freelance</h3>
+
+            <p>
+                Saat PKL di OURWEB, saya bertugas sebagai Content Specialist dan Copywriter dan AI Management, di mana saya berhasil memproduksi (generate) 800+ aset gambar berbasis AI, memproduksi video untuk kebutuhan konten dan desain. Pengalaman ini terus saya tekuni hingga sekarang melalui kerja freelance yang berfokus pada manajemen AI dan produksi ratusan aset visual digital.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================
+                    CSS
+========================================= -->
+<style>
+
+/* EXPERIENCE CONTENT */
+.projects-content{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+/* GRID */
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:2.5rem;
+}
+
+/* CARD */
+.project-card{
+    cursor:pointer;
+    transition:.4s ease;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+}
+
+/* IMAGE */
+.project-image img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    display:block;
+    border-radius:20px;
+}
+
+/* =========================================
+                POPUP OVERLAY
+========================================= */
+
+.popup-overlay{
+    position:fixed;
+    inset:0;
+
+    background:rgba(0,0,0,0.6);
+    backdrop-filter:blur(6px);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    opacity:0;
+    visibility:hidden;
+
+    transition:.3s ease;
+
+    z-index:9999;
+}
+
+/* ACTIVE */
+.popup-overlay.active{
+    opacity:1;
+    visibility:visible;
+}
+
+/* =========================================
+                POPUP CONTENT
+========================================= */
+
+.exp-popup-content{
+    position:relative;
+
+    width:85%;
+    max-width:1000px;
+
+    background:#fff;
+
+    border-radius:25px;
+
+    display:flex;
+    overflow:hidden;
+
+    animation:popupShow .3s ease;
+}
+
+/* LEFT IMAGE */
+.exp-popup-image{
+    width:45%;
+}
+
+.exp-popup-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+/* RIGHT TEXT */
+.exp-popup-text{
+    width:55%;
+
+    padding:40px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.exp-popup-text h3{
+    font-size:32px;
+    margin-bottom:20px;
+    color:#111;
+}
+
+.exp-popup-text p{
+    font-size:16px;
+    line-height:1.8;
+    color:#555;
+}
+
+/* CLOSE BUTTON */
+.close-btn{
+    position:absolute;
+
+    top:15px;
+    right:20px;
+
+    font-size:35px;
+    color:#333;
+
+    cursor:pointer;
+    z-index:10;
+
+    transition:.3s;
+}
+
+.close-btn:hover{
+    color:red;
+    transform:rotate(90deg);
+}
+
+/* ANIMATION */
+@keyframes popupShow{
+
+    from{
+        opacity:0;
+        transform:scale(.8);
+    }
+
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+    .projects-grid{
+        grid-template-columns:1fr;
+    }
+
+    .exp-popup-content{
+        flex-direction:column;
+        width:92%;
+    }
+
+    .exp-popup-image,
+    .exp-popup-text{
+        width:100%;
+    }
+
+    .exp-popup-image img{
+        height:250px;
+    }
+
+    .exp-popup-text{
+        padding:25px;
+    }
+
+    .exp-popup-text h3{
+        font-size:24px;
+    }
+
+}
+
+</style>
+
+
+
+<!-- =========================================
+                JAVASCRIPT
+========================================= -->
+<script>
+
+/* OPEN POPUP */
+function openPopup(id){
+
+    document
+        .getElementById(id)
+        .classList.add("active");
+}
+
+/* CLOSE POPUP */
+function closePopup(id){
+
+    document
+        .getElementById(id)
+        .classList.remove("active");
+}
+
+/* CLOSE OUTSIDE */
+window.onclick = function(e){
+
+    document
+        .querySelectorAll(".popup-overlay")
+        .forEach(popup => {
+
+            if(e.target === popup){
+
+                popup.classList.remove("active");
+
+            }
+
+        });
+
+}
+
+</script>
+
+        
+        <!-- Services Section -->
+        <section id="service" class="section service">
+            <div class="container" >
+                <h2 class="section-title">Hobbys</h2>
+                <div class="services-content" style="max-width: 1300px;
+    margin: 0 auto;">
+                    <div class="services-grid">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="images/1h.jpg" alt="Project 1">
+                                <div class="service-overlay">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="images/2h.jpg" alt="Project 2">
+                                <div class="service-overlay">
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://tiktok.com/@gabriel_arn78"target="_blank" class="project-card">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="images/11.jpeg" alt="Project 3">
+                                <div class="service-overlay">
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                        <a href="https://www.instagram.com/chalica_ars?igsh=Z2lrYzl0MzNqaDg1" target="_blank" class="project-card">
+                            <div class="project-image">
+                                 <img src="images/4p.jpg" alt="Project 4">
+                                    <div class="service-overlay">
+                                    </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>fitriafaricha@gmail.com</p>
+                                <a href="mailto:fitriafaricha@gmial.com">Send Email</a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>WhatsApp</h3>
+                                <p>+62 8990 1948 49</p>
+                                <a href="https://wa.me/628990194849" target="_blank">Send Message</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
